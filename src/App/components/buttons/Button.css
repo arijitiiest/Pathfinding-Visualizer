@@ -1,0 +1,40 @@
+.button {
+    background-color: #181a3d; /* Green */
+    border: none;
+    color: white;
+    margin: 10px;
+    padding: 12px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button_hover:hover {
+    color: #70729b;
+}
+
+.start {
+    background-color: rgb(5, 191, 204);
+    border-radius: 5%;
+    padding: 12px;
+}
+
+/* Algorithms Dropdown */
+.algo-option {
+    text-indent: 0px;
+}
+
+.running {
+    opacity: 0.6;
+}
+
+.running option {
+    display: none;
+}
+
+.run {
+    background-color: crimson;
+}

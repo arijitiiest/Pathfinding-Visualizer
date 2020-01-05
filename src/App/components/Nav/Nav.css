@@ -1,0 +1,126 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #ffffff;
+    height: 56px;
+    z-index: 5000;
+  }
+  
+  .header_navigation {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    letter-spacing: 3px;
+  }
+  
+  .header_logo-link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin: 0 3rem 0 2rem;
+    letter-spacing: 4px;
+  }
+  
+  .header_logo-link:hover,
+  .header_logo-link:active {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .header_navigation-items ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .header_navigation-items-link {
+    padding: 0 1.2rem;
+    color: rgb(0, 0, 0, 0.5);
+    border-left: solid 1px rgba(94, 93, 93, 0.3);
+    line-height: 1;
+    font-size: small;
+    text-decoration: none;
+  }
+  
+  .header_navigation-items-link:hover,
+  .header_navigation-items-link:active {
+    color: #000000;
+  }
+  
+  
+  /* Humburger button style */
+  .bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    right: 25px;
+    top: 1rem;
+  }
+  
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: #373a47;
+  }
+  
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+  }
+  
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background: #bdc3c7;
+  }
+  
+  /*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+  .bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+  }
+  
+  /* General sidebar styles */
+  .bm-menu {
+    background: #343847;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+  }
+  
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: #fff5f5;
+    padding: 0.8em;
+  }
+  
+  /* Individual item */
+  .bm-item {
+    color: #c4c3c3;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: solid 1px #5f5e5e;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  /* Styling of overlay */
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+  
+  @media (max-width: 959px) {
+    .header_navigation-items {
+      display: none;
+    }
+  }
+  
+  @media (min-width: 960px) {
+    .header_toggle-button {
+      display: none;
+    }
+  }
