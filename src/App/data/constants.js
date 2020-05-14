@@ -1,2 +1,2 @@
-export const ROW = 25;
-export const COL = 60;
+export const ROW = 30;
+export const COL = 65;
