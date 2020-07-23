@@ -1,8 +1,14 @@
-## Pathfinding Visualizer Project
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+# Pathfinding Visualizer Project
 This project is for visualising different pathfinding algorithms (Dijkstra's Algorithm, A* Algorithm, BFS, DFS, Greedy Algorithm). 
 
-The deployed project on [this](https://arijitiiest.github.io/Pathfinding-Visualizer/) link.
+### Demo
+Deployed on [this](https://arijitiiest.github.io/Pathfinding-Visualizer/) link.
 
+### Technology Stack
+* React JS
+* WebPack
+* Babel
+
+### Credit
+The Idea of this project has been taken from [this](https://www.youtube.com/channel/UCaO6VoaYJv4kS-TQO_M-N_g) 
+YouTube channel.
